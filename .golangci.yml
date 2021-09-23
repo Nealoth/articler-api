@@ -1,0 +1,13 @@
+run:
+  concurrency: 4
+  allow-parallel-runners: true
+
+linters:
+  enable:
+    - revive
+    - govet
+    - prealloc
+    - bodyclose
+    - errorlint
+    - exhaustive
+    - funlen
